@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rounded square badge background -->
+    <path android:pathData="M24,0h60a24,24 0,0 1,24 24v60a24,24 0,0 1,-24 24h-60a24,24 0,0 1,-24 -24v-60a24,24 0,0 1,24 -24z">
+        <aapt:attr xmlns:aapt="http://schemas.android.com/aapt" name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:startColor="#10101A"
+                android:centerColor="#7A1233"
+                android:endColor="#FE2C55" />
+        </aapt:attr>
+    </path>
+
+    <!-- Soft cyan glow accent, top-right -->
+    <path
+        android:pathData="M86,22m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0"
+        android:fillColor="#1F25F4EE" />
+
+    <!-- White rounded card behind the glyph -->
+    <path
+        android:pathData="M32,28 h44 a10,10 0 0 1 10,10 v40 a10,10 0 0 1 -10,10 h-44 a10,10 0 0 1 -10,-10 v-40 a10,10 0 0 1 10,-10 z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.97" />
+
+    <!-- Download arrow, cyan -->
+    <path
+        android:pathData="M54,42 v22 M54,64 l-11,-11 M54,64 l11,-11"
+        android:strokeColor="#25F4EE"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Tray under the arrow, brand red -->
+    <path
+        android:pathData="M39,74 h30"
+        android:strokeColor="#FE2C55"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

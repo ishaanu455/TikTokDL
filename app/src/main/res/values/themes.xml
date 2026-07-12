@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MediaSaver" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Dark, matches the app's own header/splash so there's no purple or white flash -->
+        <item name="android:statusBarColor">@color/brand_dark</item>
+        <item name="android:navigationBarColor">@color/brand_dark</item>
+        <item name="android:windowBackground">@color/brand_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Shown for an instant on cold start, before Compose has anything to draw —
+         branded (logo + dark background) instead of a blank white window. -->
+    <style name="Theme.MediaSaver.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/brand_dark</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/brand_dark</item>
+        <item name="postSplashScreenTheme">@style/Theme.MediaSaver</item>
+    </style>
+</resources>
